@@ -1,0 +1,128 @@
+.mainThree {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+/* one */
+.mainThreeItemOne {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainThreeItemOneHeading {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainThreeItemOneHeadingHolder {
+  position: relative;
+  width: fit-content;
+  height: auto;
+}
+
+.mainThreeItemOneHeadingDesign {
+  position: absolute;
+  top: -12px;
+  right: -30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ff664b;
+  z-index: 0;
+}
+
+.mainThreeItemOneHeading h1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  font-size: 60px;
+  font-weight: 700;
+  color: #222;
+}
+
+.mainTwoItemTwoImage {
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+}
+
+.mainThreeItemTwo {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainThreeItemOneSub {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.mainThreeItemOneSubHeading {
+  position: relative;
+  width: 80%;
+  height: auto;
+  padding: 20px 0px;
+}
+
+.mainThreeItemOneSubHeading h2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  color: #111;
+}
+
+.mainThreeItemOneSubPara {
+  position: relative;
+  width: 80%;
+  height: auto;
+}
+
+.mainThreeItemOneSubPara p {
+  position: relative;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 32px;
+  color: #111;
+}
+
+.mainThreeItemOneSubIcons {
+  position: relative;
+  width: 80%;
+  height: auto;
+  display: flex;
+  gap: 30px;
+  justify-content: left;
+  align-items: center;
+}
